@@ -132,15 +132,11 @@ export const SkeletonOne = () => {
 
 export const SkeletonThree = () => {
   return (
-    <a
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
-      target="__blank"
-      className="group/image relative flex h-full gap-10"
-    >
 
 
 
-    <div className="max-w-xs w-full">
+
+
       <div
         className={cn(
           "group w-full cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl mx-auto flex flex-col justify-end p-4 border border-transparent dark:border-neutral-800",
@@ -161,9 +157,9 @@ export const SkeletonThree = () => {
           </p>
         </div>
       </div>
-    </div>
+  
 
-    </a>
+
   );
 }
 
